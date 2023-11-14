@@ -1,0 +1,8 @@
+"/Users/kevindarrah/Library/Arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool" --chip esp32s3 --port "/dev/cu.SLAB_USBtoUART" --baud 921600  --before default_reset --after hard_reset write_flash  -z --flash_mode dout --flash_freq 80m --flash_size 16MB 
+0x0 "/private/var/folders/gv/dqd77lfs72xgzhcbwrp3f6vc0000gn/T/arduino/sketches/8454F4C7796F2ABDB0D67CDF7C12BBF2/CurtisTestCode.ino.bootloader.bin" 
+
+0x8000 "/private/var/folders/gv/dqd77lfs72xgzhcbwrp3f6vc0000gn/T/arduino/sketches/8454F4C7796F2ABDB0D67CDF7C12BBF2/CurtisTestCode.ino.partitions.bin" 
+
+0xe000 "/Users/kevindarrah/Library/Arduino15/packages/esp32/hardware/esp32/2.0.14/tools/partitions/boot_app0.bin" 
+
+0x10000 "/private/var/folders/gv/dqd77lfs72xgzhcbwrp3f6vc0000gn/T/arduino/sketches/8454F4C7796F2ABDB0D67CDF7C12BBF2/CurtisTestCode.ino.bin" 
